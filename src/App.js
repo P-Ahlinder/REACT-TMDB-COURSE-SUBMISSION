@@ -72,7 +72,9 @@ function App() {
       </div>
       <div className='moviesheader'>
         <Heading heading='Recently viewed' />
-        <MovieBox movies={recentViewed} handleRecentClick={addRecentMovie} />
+        <div className='recently'>
+          <MovieBox movies={recentViewed} handleRecentClick={addRecentMovie} />
+        </div>
       </div>
     </>
   );

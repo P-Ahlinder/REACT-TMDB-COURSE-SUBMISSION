@@ -24,9 +24,7 @@ const MovieBox = (props) => {
             </div>
           </div>
         )}
-
       </div>
-
     </>
   )
 }
