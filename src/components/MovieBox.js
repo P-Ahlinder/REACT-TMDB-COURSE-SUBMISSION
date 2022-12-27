@@ -1,9 +1,7 @@
 import { Button } from 'react-bootstrap';
 
-
 const API_IMG = "https://image.tmdb.org/t/p/w500/";
 const API_REDIRECT = "https://www.themoviedb.org/movie/";
-
 
 const MovieBox = (props) => {
 

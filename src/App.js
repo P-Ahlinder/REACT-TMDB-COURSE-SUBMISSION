@@ -4,9 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
 import Heading from './components/Heading';
 
-
 const API_URL = "https://api.themoviedb.org/3/movie/popular?api_key=28b7a9c29304fa85edad13a44481f8c0"
-
 
 function App() {
   const [movies, setMovies] = useState([]);
